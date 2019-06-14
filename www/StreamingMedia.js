@@ -27,7 +27,7 @@ StreamingMedia.prototype.playVideo = function (url, options) {
 	cordova.exec(options.successCallback || null, options.errorCallback || null, "StreamingMedia", "playVideo", [url, options]);
 };
 
-StreamingMedia.prototype.playputosvideos = function (url) {
+StreamingMedia.prototype.playinvlc = function (url) {
 	cordova.exec(options.successCallback || null, options.errorCallback || null, "StreamingMedia", "playvlc", [url]);
 };
 

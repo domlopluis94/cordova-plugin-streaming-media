@@ -11,15 +11,15 @@
 		This plugin allows you to launch a fullscreen streaming player for audio or video on iOS and Android.
 	</description>
 
-	<author>Nicholas Hutchind</author>
+	<author>Nicholas Hutchind y Luis Dominguez</author>
 
 	<license>MIT</license>
 
 	<keywords>Streaming, Media, Video, Audio, Android, iOS</keywords>
 
-	<repo>https://github.com/nchutchind/Streaming-Media-Cordova-Plugin.git</repo>
+	<repo>https://github.com/domlopluis94/Streaming-Media-Cordova-Plugin.git</repo>
 
-	<issue>https://github.com/nchutchind/Streaming-Media-Cordova-Plugin/issues</issue>
+	<issue>https://github.com/domlopluis94/Streaming-Media-Cordova-Plugin/issues</issue>
 
 	<engines>
 		<engine name="cordova" version=">=3.0.0" />

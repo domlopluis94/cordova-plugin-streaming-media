@@ -1,6 +1,7 @@
 # Cordova Streaming Media plugin
 
-For iOS and Android, by [Nicholas Hutchind](https://github.com/nchutchind)
+For iOS and Android, by [Nicholas Hutchind](https://github.com/nchutchind) modificado por Luis (https://github.com/domlopluis94)
+
 
 ## Description
 
@@ -12,7 +13,7 @@ This plugin allows you to stream audio and video in a fullscreen, native player 
 ## Installation
 
 ```
-cordova plugin add https://github.com/nchutchind/cordova-plugin-streaming-media
+cordova plugin add https://github.com/domlopluis94/cordova-plugin-streaming-media
 ```
 
 ### iOS specifics
@@ -23,6 +24,7 @@ cordova plugin add https://github.com/nchutchind/cordova-plugin-streaming-media
 * Uses VideoView and MediaPlayer.
 * Creates two activities in your AndroidManifest.xml file.
 * Tested on Android 4.0+
+* You can now play in vlc app
 
 ## Usage
 
