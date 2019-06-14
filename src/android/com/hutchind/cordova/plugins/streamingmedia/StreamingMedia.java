@@ -54,6 +54,24 @@ public class StreamingMedia extends CordovaPlugin {
 		return play(SimpleVideoStream.class, url, options);
 	}
 
+    private boolean playvlc(String url) {
+		return playv(url);
+	}
+    
+    private boolean playv(final String url) {
+            try{
+                int vlcRequestCode = 42; //request code used when finished playing, not necessary if you only use startActivity(vlcIntent)
+                 Intent vlcIntent = new Intent(Intent.ACTION_VIEW);
+                 vlcIntent.setPackage("org.videolan.vlc");
+                 vlcIntent.setDataAndTypeAndNormalize(url, "video/*");
+                 vlcIntent.putExtra("title", "ÑÑTV VLC");
+                 startActivityForResult(vlcIntent, vlcRequestCode);
+                 return true;
+            }catch(JSONException e){
+                return false;
+            }
+	}
+    
 	private boolean play(final Class activityClass, final String url, final JSONObject options) {
 		final CordovaInterface cordovaObj = cordova;
 		final CordovaPlugin plugin = this;
